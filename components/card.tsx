@@ -1,14 +1,23 @@
 import Image from "next/image"
+import Link from "next/link"
 
-export default function Card() {
+interface Card {
+  src: string;
+  alt: string;
+  href: string;
+}
+
+export default function Card({src, alt, href}: Card) {
   return (
-    <div className="relative transition duration-500 ease-in-out aspect-5/7 w-full saturate-0 hover:saturate-100 hover:scale-103">
-      <Image
-        src="/me_1.jpg"
-        alt="me"
-        fill
-        className="object-cover"
-      />
-    </div>
+    <Link href={href}>
+      <div className="relative transition duration-500 ease-in-out aspect-5/7 w-full saturate-0 hover:saturate-100 hover:scale-103">
+        <Image
+          src= {src}
+          alt= {alt}
+          fill
+          className="object-cover"
+        />
+      </div>
+    </Link>
   )
 }

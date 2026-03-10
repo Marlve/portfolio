@@ -12,21 +12,15 @@ export default function Home() {
         </div>
         <div className="justify-self-end w-1/6 flex flex-col text-end">
           <Subhandle>Links</Subhandle>
-          <Link href="https://www.instagram.com/drch.__/">Instagram</Link>
+          <Link href="https://www.instagram.com/drch.__">Instagram</Link>
           <Link href="https://github.com/Marlve">Github</Link>
           <Link href="https://www.youtube.com/@TheMovieThought">Youtube</Link>
-          <Link href="https://letterboxd.com/Kyotart/">Letterboxd</Link>
+          <Link href="https://letterboxd.com/Kyotart">Letterboxd</Link>
         </div>
       </div>
 
       <div className="grid grid-cols-4 gap-x-4">
-        <div className="bg-blue-400 transition duration-500 ease-in-out aspect-5/7 w-full saturate-0 hover:saturate-100 hover:scale-103">
-        </div>
-        <Card></Card>
-        <div className="bg-blue-400">
-        </div>
-        <div className="bg-blue-400">
-        </div>
+        <Card src="/me_1.jpg" alt="me" href="video-editing"></Card>
       </div>
 
       <div className="h-[200vh]">
