@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-interface Card {
+type Card = {
   src: string;
   alt: string;
   href: string;

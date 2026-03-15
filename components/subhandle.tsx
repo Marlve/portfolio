@@ -1,5 +1,6 @@
 import { ReactNode } from "react"
-interface Subhandle {
+
+type Subhandle = {
   children: ReactNode
   size?: string
 }

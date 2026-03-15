@@ -1,5 +1,5 @@
 import Card from "@/components/card";
-import Link from "@/components/link";
+import Link from "next/link";
 import Subhandle from "@/components/subhandle";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <div className="grid grid-cols-2">
         <div>
           <Subhandle>Info</Subhandle>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>I'm a Computer Science student with a passion for films and video editing. I first started editing videos in 2018 and have continued to do so casually ever since by editing for other youtuber and creating my own channel currently by the name "Movie Thoughts".  </p>
         </div>
         <div className="justify-self-end w-1/6 flex flex-col text-end">
           <Subhandle>Links</Subhandle>
@@ -20,11 +20,10 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-4 gap-x-4">
-        <Card src="/me_1.jpg" alt="me" href="video-editing"></Card>
+        <Card src="/video_editing.JPG" alt="me" href="video-editing"></Card>
       </div>
 
       <div className="h-[200vh]">
-      {/* your content */}
       </div>
 
     </div>

@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="py-4 grid grid-cols-2 select-none sticky top-0 bg-background z-10">
       <div className="">
-        <p className="text-lg">Derich Marlve</p>
+        <Link href='/' className="text-lg">Derich Marlve</Link>
         <Subhandle size="text-sm">Student</Subhandle>
       </div>
 
